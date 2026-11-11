@@ -83,7 +83,7 @@ function Tabla({ filas }) {
 function Descargar() {
   return (
     <a className="boton" href={DOWNLOAD_URL} target="_blank" rel="noopener">
-      <img src="/img/icon_coin.png" alt="" /> Descargar {VERSION}
+      <img src="img/icon_coin.png" alt="" /> Descargar {VERSION}
     </a>
   )
 }
@@ -102,7 +102,7 @@ export default function App() {
       </nav>
 
       <header id="inicio" className="hero">
-        <img className="hero-fondo" src="/img/cine_menu.png" alt="" />
+        <img className="hero-fondo" src="img/cine_menu.png" alt="" />
         <div className="hero-texto">
           <span className="etiqueta">{VERSION}</span>
           <h1>Mercadieval</h1>
@@ -115,7 +115,7 @@ export default function App() {
         </div>
         <div className="personajes">
           {['player', 'npc_campesino', 'npc_dama', 'npc_ladron', 'enemy_errante', 'candil_0'].map((p) => (
-            <img key={p} src={`/img/${p}.png`} alt="" />
+            <img key={p} src={`img/${p}.png`} alt="" />
           ))}
         </div>
       </header>
@@ -213,7 +213,7 @@ export default function App() {
         </section>
 
         <section className="final">
-          <img src="/img/cine_fin_paz.png" alt="" />
+          <img src="img/cine_fin_paz.png" alt="" />
           <h2>¿Listo para abrir la tienda?</h2>
           <Descargar />
         </section>

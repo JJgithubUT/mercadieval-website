@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Pixelify';
-  src: url('/PixelifySans-SemiBold.ttf') format('truetype');
+  src: url('./PixelifySans-SemiBold.ttf') format('truetype');
   font-display: swap;
 }
 
